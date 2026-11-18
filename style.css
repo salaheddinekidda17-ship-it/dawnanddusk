@@ -1,0 +1,13 @@
+:root { --page:#FAF6F0; --ink:#231F1C; --soft:#564C45; --green:#1F5C55; --line:#E6DCCF; --card:#FFFFFF; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--page); color:var(--ink); font:18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+h1 { font:600 34px/1.2 "New York", "Iowan Old Style", Georgia, serif; margin:16px 0 8px; }
+h2 { font:600 23px/1.3 "New York", "Iowan Old Style", Georgia, serif; margin:36px 0 8px; }
+p, li { color:var(--ink); }
+.lead { color:var(--soft); font-size:20px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; margin:16px 0; }
+a { color:var(--green); font-weight:600; }
+nav a { margin-right:18px; }
+footer { color:var(--soft); font-size:16px; margin-top:48px; border-top:1px solid var(--line); padding-top:16px; }
+.icon { width:72px; height:72px; border-radius:16px; }
